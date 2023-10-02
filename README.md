@@ -12,4 +12,4 @@ Screenshots:
 ![Screenshot (8)](https://github.com/lsaox/Coding-Quiz-Homework/assets/138525227/0df83c2e-fbee-489a-95c7-e8261c9df898)
 ![Screenshot (9)](https://github.com/lsaox/Coding-Quiz-Homework/assets/138525227/6f91cb7d-5be5-4002-a06b-2064d90d4321)
 
-Link to Deployed Website : 
+Link to Deployed Website : https://lsaox.github.io/Coding-Quiz-Homework/
