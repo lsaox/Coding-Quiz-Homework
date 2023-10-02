@@ -1,0 +1,44 @@
+*{
+    font-family: 'Oswald', sans-serif ;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    margin-top: 5vh;  
+}
+.content{
+    border: 3px solid black;
+    width:50vw;
+    padding: 20px;
+    background-color:#012a36;
+  
+}
+.content h1, .content p{
+    color:whitesmoke;
+  
+    
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+}
+
+#start-btn{
+    width:5vw;
+    margin-bottom: 3vh;
+    background-color:#00a550;
+    border:#00a550;
+    padding: 10px;
+    border-radius:20%;
+    color:whitesmoke;
+}
+
+
+.hide{
+    display:none;
+
+}
+.show{
+    display:block;
+}
