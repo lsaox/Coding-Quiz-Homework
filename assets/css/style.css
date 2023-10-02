@@ -1,101 +1,126 @@
-*{
-    font-family: 'Oswald', sans-serif ;
+* {
+    font-family: 'Oswald', sans-serif;
 }
-body 
-{background-color: #f2f3f3e8;}
+
+body {
+    background-color: #f2f3f3e8;
+}
 
 @import url('https://images.pexels.com/photos/5326925/pexels-photo-5326925.jpeg?auto=compress&cs=tinysrgb&w=400');
 
-h1 { text-align: left 20%;}
+h1 {
+    text-align: left 20%;
+}
 
-body  {
+body {
     background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
-  background-size:cover;
-        -webkit-animation: slidein 250s;
-        animation: slidein 250s;
+    background-size: cover;
+    -webkit-animation: slidein 250s;
+    animation: slidein 250s;
 
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 
-        -webkit-animation-direction: alternate;
-        animation-direction: alternate;              
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
 }
 
 @-webkit-keyframes slidein {
-from {background-position: top; background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+    from {
+        background-position: top;
+        background-size: 3000px;
+    }
+
+    to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
 }
 
 @keyframes slidein {
-from {background-position: top;background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+    from {
+        background-position: top;
+        background-size: 3000px;
+    }
+
+    to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
 
 }
 
 
 
-.center
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(75, 75, 250, 0.3);
-  border-radius: 3px;
-}
-.center h1{
-  text-align:center;
-  color:white;
-  font-family: 'Source Code Pro', monospace;
-  text-transform:uppercase;
-}
-
-header{
-    display:flex;
+.center {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 5vh;  
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(75, 75, 250, 0.3);
+    border-radius: 3px;
 }
-.content{
+
+.center h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.content {
     border: 3px solid black;
-    width:50vw;
+    width: 50vw;
     padding: 20px;
-    background-color:#012a36;
-  
+    background-color: #012a36;
+
 }
-.content h1, .content p{
-    color:rgb(217, 224, 218);}
-  
-  .button {background-color: #4bbfdb42;
-    
+
+.content h1,
+.content p {
+    color: rgb(217, 224, 218);
 }
-.btn-center{
+
+.button {
+    background-color: #4bbfdb42;
+
+}
+
+.btn-center {
     display: flex;
     justify-content: center;
 }
 
-#start-btn{
-    width:5vw;
+#start-btn {
+    width: 5vw;
     margin-bottom: 3vh;
-    background-color:#00a550;
-    border:#00a550;
+    background-color: #00a550;
+    border: #00a550;
     padding: 10px;
-    border-radius:20%;
-    color:whitesmoke;
+    border-radius: 20%;
+    color: whitesmoke;
 }
 
 
-.hide{
-    display:none;
+.hide {
+    display: none;
 
 }
-.show{
-    display:block;
+
+.show {
+    display: block;
 }
