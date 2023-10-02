@@ -1,20 +1,23 @@
 const questions=[
     {
-        question: "Who is the biggest seller of coffee in the world?",
-        answer:["Colombia", "Etiopia", "Brazil", "Argentina"],
-        correct:"Brazil"
+        question: "What best defines Javascript?",
+        answer:["A scripting language that enables you to create dynamically updating content, control multimedia, animate images, ect.", 
+        "A language of style rules that we use to apply styling to our HTML content", 
+        " A markup language that we use to structure and give meaning to our web content",
+         ],
+        correct:"A scripting language that enables you to create dynamically updating content, control multimedia, animate images, ect."
 
     },
      {
-        question: "What is the official animal of Scotland",
-        answer:["Nessie", "Wolf", "Eagle", "Unicorn"],
-        correct:"Unicorn"
+        question: "What is an Array in Javascript?",
+        answer:["A way of adding an event listener", "Running code in response to certain events occurring on a web page", "A way of storing a list of data items under a single variable name"],
+        correct:"A way of storing a list of data items under a single variable name"
 
     },
      {
-        question: "What is the name of a group of frogs?",
-        answer:["Army", "Armada", "Murder", "Assembly"],
-        correct:"Army"
+        question: "What do strings do in Javascript?",
+        answer:["JavaScript strings are for storing and manipulating text", "A JavaScript String is a block of code designed to perform a particular task", "You access an array element by referring to the string"],
+        correct:"JavaScript strings are for storing and manipulating text"
 
     },
 
